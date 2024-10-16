@@ -1,0 +1,24 @@
+Funciones
+
+Funciones Regulares
+    Declarativas -> Función que se puede ejecutar en cualquier parte del código (documento completo)
+    De expresión -> Funcoón que se puede ejecutar solo después de su definición
+Funciones Flecha
+    De expresión -> La misma vaina que la funcion regular de expresión, pero en forma de flechita
+Funciones Anónimas -> Es una función sin nombre que se ejecuta una sola vez dentro de su definición
+
+Nota: Se podría decir que una función regular de expresión y una función flecha, es la asignación de una función anónima a una varible. Nombrar una función anónima
+
+Nota**: TODAS las funciones pueden tener argumentos, parámetros y retornos
+
+Toda función trabaja en dos tiempos: definición y su llamado o invocar
+    definición: Es la construcción de la función y su código a ejecutar
+    llamado: la utilización de la función
+
+
+Argumentos: -> Los valores reales que ingresan a la función y se implementan en el llamado o invocación
+Parámetros: -> Las variables o "placeholders" que toman las funciones para ejecutarse dentro de la función. Estos se implementan en la definición de la función
+
+
+Retorno y no retorno
+void no retorna información
