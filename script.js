@@ -62,6 +62,5 @@ let valorHora = 10000
 
 let retornoValorHorasExtras = calcularValorHorasExtras(calcularHorasExtras(cantidadHoras), valorHora)
 let retornoDeducciones = calcularDeducciones(calcularSalarioBruto(cantidadHoras, valorHora))
-let retornoSalarioBruto = calcularSalarioBruto(cantidadHoras, valorHora)
-
+let retornoSalarioBruto = calcularSalarioBruto(cantidadHoras, valorHora, calcularHorasExtras(cantidadHoras))
 calcularSalarioNeto(retornoSalarioBruto, retornoDeducciones, retornoValorHorasExtras)
