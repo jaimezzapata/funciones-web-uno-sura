@@ -34,34 +34,62 @@
 
 
 
-function calcularHorasExtras(cantidadHoras) {
-    if (cantidadHoras > 92) {
-        let horasExtras = cantidadHoras - 92
-        return horasExtras
-    } else {
-        return 0
-    }
-}
-function calcularValorHorasExtras(cantidadHoras, valorHora) {
-    let valorHoraExtra = valorHora * 1.25
-    return cantidadHoras * valorHoraExtra
-}
-function calcularSalarioBruto(cantidadHoras, valorHora) {/* Sin deducciones */
-    let salarioBruto = cantidadHoras * valorHora
-    return salarioBruto
-}
-function calcularSalarioNeto(salarioBruto, deducciones, valorHoraExtra) {
-    console.log('El empleado tiene un salario bruto de: ' + salarioBruto + ' con unas deducciones por valor de: ' + deducciones + ' y un valor de horas extras por: ' + valorHoraExtra + '. El Salario neto a pagar es: ' + (salarioBruto - deducciones + valorHoraExtra))
-}
-function calcularDeducciones(salarioBruto) {
-    let deducciones = salarioBruto * 0.08
-    return deducciones
-}
-let cantidadHoras = 100
-let valorHora = 10000
+// function calcularHorasExtras(cantidadHoras) {
+//     if (cantidadHoras > 92) {
+//         let horasExtras = cantidadHoras - 92
+//         return horasExtras
+//     } else {
+//         return 0
+//     }
+// }
+// function calcularValorHorasExtras(cantidadHoras, valorHora) {
+//     let valorHoraExtra = valorHora * 1.25
+//     return cantidadHoras * valorHoraExtra
+// }
+// function calcularSalarioBruto(cantidadHoras, valorHora) {/* Sin deducciones */
+//     let salarioBruto = cantidadHoras * valorHora
+//     return salarioBruto
+// }
+// function calcularSalarioNeto(salarioBruto, deducciones, valorHoraExtra) {
+//     console.log('El empleado tiene un salario bruto de: ' + salarioBruto + ' con unas deducciones por valor de: ' + deducciones + ' y un valor de horas extras por: ' + valorHoraExtra + '. El Salario neto a pagar es: ' + (salarioBruto - deducciones + valorHoraExtra))
+// }
+// function calcularDeducciones(salarioBruto) {
+//     let deducciones = salarioBruto * 0.08
+//     return deducciones
+// }
+// let cantidadHoras = 100
+// let valorHora = 10000
 
-let retornoValorHorasExtras = calcularValorHorasExtras(calcularHorasExtras(cantidadHoras), valorHora)
-let retornoDeducciones = calcularDeducciones(calcularSalarioBruto(cantidadHoras, valorHora))
-let retornoSalarioBruto = calcularSalarioBruto(cantidadHoras, valorHora, calcularHorasExtras(cantidadHoras))
+// let retornoValorHorasExtras = calcularValorHorasExtras(calcularHorasExtras(cantidadHoras), valorHora)
+// let retornoDeducciones = calcularDeducciones(calcularSalarioBruto(cantidadHoras, valorHora))
+// let retornoSalarioBruto = calcularSalarioBruto(cantidadHoras, valorHora, calcularHorasExtras(cantidadHoras))
 
-calcularSalarioNeto(retornoSalarioBruto, retornoDeducciones, retornoValorHorasExtras)
+// calcularSalarioNeto(retornoSalarioBruto, retornoDeducciones, retornoValorHorasExtras)
+
+
+// funcionFlecha()
+
+// const funcionFlecha = () => {
+//     console.log('Esto es una función flecha')
+// }
+// let funcionRegularDeExpresion = function(){
+//     console.log('Esto es una función de expresión')
+// }
+// function funcionRegularDeclarativa(){
+
+// }
+// funcionFlecha()
+// funcionFlecha()
+// funcionFlecha()
+// funcionFlecha()
+
+function estoEsUnaFuncion(funcionAnonima) {
+    // console.log('Esto es una función regular')
+    funcionAnonima()
+}
+estoEsUnaFuncion(() => {
+    console.log('Esto es una funcion anonima flecha')
+})
+estoEsUnaFuncion(function () {
+    console.log('Esto es una funcion anonima regular')
+})

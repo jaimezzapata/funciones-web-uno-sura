@@ -2,7 +2,7 @@ Funciones
 
 Funciones Regulares
     Declarativas -> Función que se puede ejecutar en cualquier parte del código (documento completo)
-    De expresión -> Funcoón que se puede ejecutar solo después de su definición
+    De expresión -> Función que se puede ejecutar solo después de su definición
 Funciones Flecha
     De expresión -> La misma vaina que la funcion regular de expresión, pero en forma de flechita
 Funciones Anónimas -> Es una función sin nombre que se ejecuta una sola vez dentro de su definición
