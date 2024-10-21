@@ -93,3 +93,5 @@ estoEsUnaFuncion(() => {
 estoEsUnaFuncion(function () {
     console.log('Esto es una funcion anonima regular')
 })
+/* Esto es un comentario */
+ 
